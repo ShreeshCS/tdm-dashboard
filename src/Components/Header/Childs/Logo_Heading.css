@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(227, 227, 227);
+    
+}
+
+.logo {
+    width: 100px;
+}
+
+.heading {
+    font-family: Verdana;
+    font-size: larger;
+    font-weight: bolder;
+    /* margin-left: 50%; */
+}

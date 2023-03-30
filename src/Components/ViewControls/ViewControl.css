@@ -1,0 +1,36 @@
+.viewControllerFlex {
+  display: flex;
+  flex-direction: row;
+  background-color: #a7aaa6;
+  align-items: center;
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
+  /* min-height: 50px; */
+  justify-content: space-evenly;
+  padding: 0px;
+  height: 40px;
+}
+
+.underline {
+    position: relative;
+    top: 12px;
+    right: 6px;
+    height: 4px;
+    width: 0px;
+    background-color: green;
+    transition: width 1s;
+}
+.viewBtn>button {
+    background-color: rgb(255, 228, 196);
+    border: 0;
+    height: 40px;
+    border-bottom: 5px solid rgba(146, 214, 43, 0);
+}
+
+/* button:hover::before {
+    border-bottom: 0;
+} */
+
+.viewBtn>button:hover {
+    
+}
